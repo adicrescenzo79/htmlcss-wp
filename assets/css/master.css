@@ -28,10 +28,10 @@ row:after{
   margin-top: 1em;
 } */
 
-body.debug .h250{
+/* body.debug .h250{
   height: 250px;
   margin-top: 1em;
-}
+} */
 
 body.debug .h60{
   height: 60px;
@@ -65,6 +65,10 @@ a{
   color: #9E9E9E;
 }
 
+.tit-page{
+
+}
+
 .col-100{
   width: 100%;
 }
@@ -74,7 +78,12 @@ a{
 } */
 
 .bg-yellow{
-  background-color: #E1D67A;
+  margin-top: 1em;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 313px;
+  background-blend-mode: darken;
 }
 
 .bg-lightblue{
