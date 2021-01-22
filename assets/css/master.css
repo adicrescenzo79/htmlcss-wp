@@ -7,18 +7,13 @@
 body{
   width: 80%;
   height: 1000px;
+  font-family: 'Roboto', sans-serif;
 }
 
 [class^=col-]{
   float: left;
   padding: 0 0.5em;
 }
-
-/* [class^=col-]:after{
-  content: "";
-  display: table;
-  clear: both;
-} */
 
 row:after{
   content: "";
@@ -28,14 +23,10 @@ row:after{
 
 
 /* debug */
-/* body.debug div{
-  height: 100px;
-} */
-
-body.debug .h80{
+/* body.debug .h80{
   height: 80px;
   margin-top: 1em;
-}
+} */
 
 body.debug .h250{
   height: 250px;
@@ -64,14 +55,23 @@ body.debug .h400{
 
 /* fine debug */
 
+nav{
+  margin-top: 16px;
+}
+
+a{
+  text-decoration: none;
+  font-size: 13px;
+  color: #9E9E9E;
+}
 
 .col-100{
   width: 100%;
 }
 
-.bg-pink{
+/* .bg-pink{
   background-color: #E579E6;
-}
+} */
 
 .bg-yellow{
   background-color: #E1D67A;
