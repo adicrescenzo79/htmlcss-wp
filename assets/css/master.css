@@ -86,17 +86,35 @@ a{
 
 .tit-page *{
   color: #fff;
-  font-weight: 100
+  font-weight: 100;
+}
+
+.tit2 .font13{
+  color: #9E9E9E;
+}
+
+.badge{
+  width: 100%;
+  height: 40%;
+  background-position: center;
+  background-size: cover;
+}
+
+.img1{
+  background-image: url("../img/img-1.jpg");
+}
+
+.img2{
+  background-image: url("../img/banner-2.jpg");
+}
+
+.img3{
+  background-image: url("../img/img-3.jpg");
 }
 
 .col-100{
   width: 100%;
 }
-
-/* .bg-pink{
-  background-color: #E579E6;
-} */
-
 
 .bg-lightblue{
   background-color: #0186FF;
@@ -113,12 +131,12 @@ a{
 
 .col-50{
   float: left;
-  width: 50%;
+  width: 60%;
 }
 
 .col-25{
   float: left;
-  width: 25%;
+  width: 20%;
   padding: 0;
 }
 
