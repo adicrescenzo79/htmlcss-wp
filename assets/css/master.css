@@ -1,0 +1,106 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 80%;
+  height: 1000px;
+}
+
+[class^=col-]{
+  float: left;
+  padding: 0 0.5em;
+}
+
+/* [class^=col-]:after{
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* debug */
+/* body.debug div{
+  height: 100px;
+} */
+
+body.debug .h80{
+  height: 80px;
+  margin-top: 1em;
+}
+
+body.debug .h250{
+  height: 250px;
+  margin-top: 1em;
+}
+
+body.debug .h60{
+  height: 60px;
+  margin-top: 0em;
+}
+
+body.debug .h300{
+  height: 300px;
+  margin-top: 1em;
+}
+
+body.debug .h30{
+  height: 30px;
+  margin-top: 0.5em;
+}
+
+body.debug .h400{
+  height: 400px;
+  margin-top: 1em;
+}
+
+/* fine debug */
+
+
+.col-100{
+  width: 100%;
+}
+
+.bg-pink{
+  background-color: #E579E6;
+}
+
+.bg-yellow{
+  background-color: #E1D67A;
+}
+
+.bg-lightblue{
+  background-color: #0186FF;
+}
+
+.bg-cyan{
+  background-color: #ABCFE7;
+}
+
+.bg-purple{
+  background-color: #8801FE;
+
+}
+
+.col-50{
+  float: left;
+  width: 50%;
+}
+
+.col-25{
+  float: left;
+  width: 25%;
+  padding: 0;
+}
+
+.bg-lightblue .col-100{
+  padding: 0;
+}
